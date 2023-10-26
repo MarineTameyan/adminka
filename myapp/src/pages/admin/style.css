@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin-page{
+    background-color: cornflowerblue;
+    height: 500px;
+    margin: 20px;
+}
+
+.button{
+    margin: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button button{
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+
+.button button:hover{
+    background-color: lightgray;
+    color: white;
+}
+
+.links{
+    margin: 30px;
+    width: 50px
+}
+
+.links ul{
+    list-style: none;
+}
+
+.links li a{
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.links li a:hover{
+    background-color: lightgray;
+    color: white;
+}

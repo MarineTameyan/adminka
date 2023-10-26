@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    height: 180px;
+    width: 50%;
+    background-color: darksalmon;
+    padding: 20px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.forms input{
+    height: 30px;
+    width: 150px;
+}
+
+.sign-in button{
+    height: 25px;
+    width: 150px;
+}
